@@ -53,7 +53,7 @@ Each elevator:
 
 1. Floor requests are provided as a bit vector  
 2. The arbiter evaluates which elevator is closer  
-3. The request is assigned accordingly  
+3. The request is assigned accordingly . 
 4. The elevator adds the request to its pending queue  
 5. The elevator moves to the target floor and opens the door  
 6. The system continuously processes incoming requests  
